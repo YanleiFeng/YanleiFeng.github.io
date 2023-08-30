@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>Home - Yan Lei's Website</title>
     <style>
         /* Simple styles for the demo */
         nav {
             display: flex;
             justify-content: space-around;
+            background-color: #f4f4f4;
+            padding: 10px;
         }
         nav a {
             padding: 10px;
@@ -16,6 +18,10 @@
             color: black;
             border: 1px solid black;
             margin: 5px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #e0e0e0;
         }
         section {
             margin: 20px;
@@ -24,32 +30,26 @@
 </head>
 <body>
     <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="research.html">Research</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="opportunity.html">Opportunity</a>
+        <a href="other.html">Other</a>
     </nav>
 
-    <section id="home">
+    <section>
         <h1>Home</h1>
         <p>Yanlei Feng</p>
         <p>A research scientist in the intersection of forest ecology and atmosphere science.</p>
-        <img src="Central-point-5.gif" alt="An extreme thunderstorm passed over central Amazonia on August 8 in 2019 " style="width:80%; height:auto;">
-        <p>Feel free to explore and get to know more about me and my work.</p>
+        <img src="Central-point-5.gif" alt="An extreme thunderstorm passed over central Amazonia on August 8 in 2019" style="width:80%; height:auto;">
     </section>
     
-    <section id="about">
-        <h1>About</h1>
-        <p>Information about me.</p>
-    </section>
+    <!-- You can add more sections/content to the homepage as needed -->
 
-    <section id="portfolio">
-        <h1>Portfolio</h1>
-        <p>Some of my works.</p>
-    </section>
-    
-    <section id="contact">
-        <h1>Contact</h1>
+</body>
+</html>
+
         <p>Get in touch!</p>
     </section>
 </body>
