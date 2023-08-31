@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<style>
-    /* ... (other styles) ... */
-
-    p.large-text {
-        font-size: 18px; /* or any size you prefer */
-    }
-</style>
-
-p {
-    margin-bottom: 20px;
-}
-
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Yanlei's Website</title>
     <style>
+        /* Container for the content */
+        .container {
+            margin-left: 1in;
+            margin-right: 1in;
+        }
+
+        /* Styles for the paragraph */
+        p.large-text {
+            font-size: 18px; /* or any size you prefer */
+        }
+
         /* Simple styles for the demo */
         nav {
             display: flex;
@@ -42,35 +40,34 @@ p {
     </style>
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="research.html">Research</a>
-        <a href="teaching.html">Teaching</a>
-        <a href="opportunity.html">Opportunity</a>
-        <a href="other.html">Other</a>
-    </nav>
+    <div class="container">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="research.html">Research</a>
+            <a href="teaching.html">Teaching</a>
+            <a href="opportunity.html">Opportunity</a>
+            <a href="other.html">Other</a>
+        </nav>
 
-    <section>
-        <h1>Yanlei Feng</h1>
-        <p class="large-text spacing">Postdoc Researcher on climate impact science and climate solutions</p>
-        <p class="large-text">Research interests lie in the intersection of forest ecology and atmosphere science.</p>
-        <img src="Central-point-5.gif" alt="An extreme thunderstorm passed over central Amazonia on August 8 in 2019" style="width:80%; height:auto;">
-        <figcaption>An extreme thunderstorm passed over central Amazonia on August 8 in 2019</figcaption>
-    </section>
-    
-    <!-- You can add more sections/content to the homepage as needed -->
+        <section>
+            <h1>Yanlei Feng</h1>
+            <p class="large-text" style="margin-bottom: 20px;">Postdoc Researcher on climate impact science and climate solutions</p>
+            <p class="large-text">Research interests lie in the intersection of forest ecology and atmosphere science.</p>
+            <figure>
+                <img src="Central-point-5.gif" alt="An extreme thunderstorm passed over central Amazonia on August 8 in 2019" style="width:80%; height:auto;">
+                <figcaption>An extreme thunderstorm passed over central Amazonia on August 8 in 2019</figcaption>
+            </figure>
+            <p class="large-text">
+                As a researcher in earth science, Dr. Feng is deeply concerned about climate change and its impacts on the earth and human. Her research focuses on 
+                analyzing natural disturbance including hurricanes, fire, and drought using Google Earth Engine remote sensing, deep learning, and statistical tools. 
+                She is excited about the opportunities to build models to study the impacts of natural disasters on forest ecosystems under the climate change situation. 
+                Years of research experience in climate change impacts transit her interests to actionable climate solutions. She has worked on bioenergy with carbon 
+                capture and storage, and she is working on nature-based solutions.
+            </p>
+        </section>
 
-</body>
-</html>
-
-        <p class="large-text">
-            As a researcher in earth science, Dr. Feng is deeply concerned about climate change and its impacts on the earth and human. Her research focus on 
-            analyzing natural disturbance including hurricanes, fire, and drought using Google Earth Engine remote sensing, deep learning, and statistical tools. 
-            She is excited about the opportunities to build models to study the impacts of natural disasters on forest ecosystem under climate change situation. 
-            Years of research experience in climate change impacts transit her interests to actionable climate solutions. She has worked on bioenergy with carbon 
-            capture and storage, and she is working on nature-based solutions.
-        </p >
-    </section>
+        <!-- You can add more sections/content to the homepage as needed -->
+    </div>
 </body>
 </html>
