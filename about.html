@@ -84,10 +84,36 @@
         section {
             margin: 20px;
         }
-        .indent {
-        margin-left: 30px; /* Moves the text right */
-        text-indent: -10px; /* Keeps the label aligned */
-}
+        
+        .education-details {
+    font-size: 16px;
+    line-height: 1.6;
+        }
+
+.education-entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 10px;
+    font-weight: bold;
+        }
+
+.education-degree {
+    flex: 1;
+    min-width: 250px;
+        }
+
+.education-institution {
+    text-align: right;
+    flex: 2;
+        }
+
+.indent {
+    margin-left: 20px; /* Indents dissertation and committee */
+    font-style: italic;
+    font-size: 15px;
+        }
+
 
     </style>
 </head>
@@ -131,19 +157,34 @@
 
     </div>
 
-    <h2></h2>
+    
     <div class="education-details">
-        <h3>Ph.D., Earth System Science, University of California, Berkeley (2017-2022)</h3>
-        <p class="indent">Dissertation: “Forests under a Changing Climate: Wind Disturbance and Tree Mortality”</p>
-        <p class="indent">Committee: Jeffrey Chambers, Robinson Negrón-Juárez, John Chiang</p>
-
-        <h3>Master of City and Regional Planning, Cornell University (2015-2017)</h3>
-        <p class="indent">Thesis: “Modeling patterns of land use in Chinese cities using a cellular automaton model”</p>
-        <p class="indent">Committee: Jennifer Minner, Kieran Donaghy</p>
-
-        <h3>Bachelor of Environmental Studies, University of Waterloo (2013-2015)</h3>
-        <h3>Bachelor of Science, Environmental Science, Nanjing University (2011-2015)</h3>
+    <!-- PhD -->
+    <div class="education-entry">
+        <span class="education-degree">Ph.D.</span>
+        <span class="education-institution">Department of Geography, University of California, Berkeley, 2022</span>
     </div>
+    <p class="indent">Dissertation: <strong>Forests under a Changing Climate: Wind Disturbance and Tree Mortality</strong></p>
+    <p class="indent">Committee: Jeffrey Chambers (chair), Robinson Negrón-Juárez, John Chiang</p>
+
+    <!-- Master's Degree -->
+    <div class="education-entry">
+        <span class="education-degree">M.R.P.</span>
+        <span class="education-institution">Department of City and Regional Planning, Cornell University, 2017</span>
+    </div>
+
+    <!-- Bachelor's Degrees -->
+    <div class="education-entry">
+        <span class="education-degree">B.S.</span>
+        <span class="education-institution">Department of Geography and Environmental Management, University of Waterloo, 2015</span>
+    </div>
+
+    <div class="education-entry">
+        <span class="education-degree">B.S.</span>
+        <span class="education-institution">Department of Environmental Science, Nanjing University, 2015</span>
+    </div>
+</div>
+
 
     
     
