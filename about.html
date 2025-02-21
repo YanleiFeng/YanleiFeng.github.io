@@ -93,23 +93,18 @@
 
 .education-entry {
     display: flex;
-    justify-content: flex-start;
-    align-items: baseline; /* Ensures text alignment */
-    gap: 10px; /* Adds spacing between elements */
-    flex-wrap: nowrap; /* Prevents items from wrapping to the next line */
-    white-space: nowrap; /* Ensures inline text stays on the same line */
-    width: 100%; /* Ensures full width is used */
+    justify-content: start;
+    font-weight: normal;
+    margin-bottom: 5px;
 }
 
 .education-degree {
     min-width: 80px; /* Keeps degree aligned */
-    font-weight: bold;
-    flex-shrink: 0; /* Prevents shrinking */
+    font-weight: normal;
 }
 
 .education-institution {
-    flex-grow: 1; /* Allows text to take available space */
-    white-space: normal; /* Allows wrapping inside the institution name */
+    flex: 1;
 }
 
 .indent {
