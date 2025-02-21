@@ -87,32 +87,26 @@
         
         .education-details {
     font-size: 16px;
-    line-height: 1.6;
-        }
+    line-height: 1.5;
+    max-width: 600px; /* Keeps content neatly aligned */
+}
 
 .education-entry {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    margin-bottom: 10px;
     font-weight: bold;
-        }
-
-.education-degree {
-    flex: 1;
-    min-width: 250px;
-        }
+    margin-bottom: 2px; /* Reduces extra space */
+}
 
 .education-institution {
-    text-align: right;
-    flex: 2;
-        }
+    font-weight: normal;
+    margin-bottom: 8px; /* Adds subtle separation */
+}
 
 .indent {
-    margin-left: 20px; /* Indents dissertation and committee */
+    margin-left: 20px;
     font-style: italic;
     font-size: 15px;
-        }
+    margin-bottom: 5px; /* Ensures compact spacing */
+}
 
 
     </style>
@@ -160,29 +154,21 @@
     
     <div class="education-details">
     <!-- PhD -->
-    <div class="education-entry">
-        <span class="education-degree">Ph.D.</span>
-        <span class="education-institution">Department of Geography, University of California, Berkeley, 2022</span>
-    </div>
+    <div class="education-entry">Ph.D.</div>
+    <div class="education-institution">Department of Geography, University of California, Berkeley, 2022</div>
     <p class="indent">Dissertation: <strong>Forests under a Changing Climate: Wind Disturbance and Tree Mortality</strong></p>
     <p class="indent">Committee: Jeffrey Chambers (chair), Robinson Negrón-Juárez, John Chiang</p>
 
     <!-- Master's Degree -->
-    <div class="education-entry">
-        <span class="education-degree">M.R.P.</span>
-        <span class="education-institution">Department of City and Regional Planning, Cornell University, 2017</span>
-    </div>
+    <div class="education-entry">M.R.P.</div>
+    <div class="education-institution">Department of City and Regional Planning, Cornell University, 2017</div>
 
     <!-- Bachelor's Degrees -->
-    <div class="education-entry">
-        <span class="education-degree">B.S.</span>
-        <span class="education-institution">Department of Geography and Environmental Management, University of Waterloo, 2015</span>
-    </div>
+    <div class="education-entry">B.S.</div>
+    <div class="education-institution">Department of Geography and Environmental Management, University of Waterloo, 2015</div>
 
-    <div class="education-entry">
-        <span class="education-degree">B.S.</span>
-        <span class="education-institution">Department of Environmental Science, Nanjing University, 2015</span>
-    </div>
+    <div class="education-entry">B.S.</div>
+    <div class="education-institution">Department of Environmental Science, Nanjing University, 2015</div>
 </div>
 
 
